@@ -5,7 +5,7 @@ Machine Learning • Data Science • Applied AI
 
 I'm a machine learning graduate student and data professional interested in building reliable ML systems and using data to solve practical problems. My work spans machine learning, model evaluation, computer vision, data analysis, and software engineering.
 
-Currently completing my M.S. in Machine Learning at the University of Maryland, with graduation expected December 2026.
+Currently completing my M.S. in Applied Machine Learning at the University of Maryland, with graduation expected December 2026.
 
 ## Technical Skills
 
