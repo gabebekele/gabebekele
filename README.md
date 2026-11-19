@@ -1,92 +1,82 @@
 # Gabriel Bekele
 
-**M.S. Machine Learning @ University of Maryland**
-Machine Learning • Data Science • Applied AI
+**M.S. Applied Machine Learning @ University of Maryland**
 
-I'm a machine learning graduate student and data professional interested in building reliable ML systems and using data to solve practical problems. My work spans machine learning, model evaluation, computer vision, data analysis, and software engineering.
+Machine Learning | Data Science | Data Analytics
 
-Currently completing my M.S. in Applied Machine Learning at the University of Maryland, with graduation expected December 2026.
+I'm a machine learning graduate student and data professional with experience in data analysis, predictive modeling, and developing reproducible machine learning systems. I'm interested in applying data and machine learning to solve practical problems.
+
+Previously, I worked as a Data Analyst in the healthcare industry. I'm currently completing my M.S. in Applied Machine Learning at the University of Maryland, with expected graduation in December 2026.
 
 ## Technical Skills
 
-**Languages:** Python, SQL, C++, R
-**Machine Learning:** PyTorch, scikit-learn, classification, regression, embeddings, dimensionality reduction, model evaluation
-**Data:** pandas, NumPy, statistical analysis, data cleaning, feature engineering, exploratory data analysis
-**Engineering:** Docker, pytest, Git/GitHub, Jupyter, YAML, Linux/CLI
-**Visualization & Analytics:** Matplotlib, Power BI, Excel
+- **Languages:** Python, SQL, R, C++
+- **Machine Learning:** PyTorch, scikit-learn, AutoGluon, classification, regression, dimensionality reduction, model evaluation
+- **Data Analytics:** pandas, NumPy, statistical analysis, data cleaning, exploratory data analysis, ETL
+- **Engineering:** Docker, pytest, AWS, Git/GitHub, Linux, MySQL
+- **Visualization:** Matplotlib, Seaborn, Excel
 
 ## Featured Projects
 
-### Face Verification ML System
+### [Chicago Traffic Citation Analysis](https://github.com/gabebekele/chicago-traffic-citation-analysis)
 
-**Python • PyTorch • Docker • Computer Vision**
+**Python | MySQL | Data Analytics | ETL**
 
-End-to-end face verification pipeline using LFW and pretrained InceptionResnetV1 embeddings. Includes validation-based threshold calibration, deterministic data processing, configuration-driven experimentation, automated error analysis, unit testing, Docker-containerized inference, and latency profiling.
+Developed an automated ETL pipeline and relational database to analyze 198,994 Chicago traffic citation records. Created ten SQL views and six visualizations examining citation patterns, violations, payments, and outstanding balances.
 
-**Highlights**
+- Identified $9.68 million in positive outstanding balances within the historical dataset.
+- Validated imported records and financial totals against the original source data.
 
-* Embedding-based face verification with cosine similarity
-* Validation-based decision threshold selection
-* Reproducible experimentation and data handling
-* Automated testing and error analysis
-* Containerized inference and performance profiling
+### [Face Verification ML System](https://github.com/gabebekele/face-verification-ml-system)
 
----
+**Python | PyTorch | Docker | Computer Vision**
 
-### FIFA Player Position Classification
+Developed an end-to-end face verification pipeline using pretrained InceptionResnetV1 embeddings and cosine similarity.
 
-**Python • scikit-learn • PCA • Kernel PCA • LLE**
+- Achieved 94.61% test accuracy and 0.9886 ROC-AUC across 4,046 held-out image pairs.
+- Implemented validation-based threshold selection, automated testing, containerized inference, and CPU performance profiling.
 
-Built a six-class machine learning pipeline to classify soccer players by position and compared raw standardized features with multiple dimensionality-reduction techniques.
+### [Transit Performance Analysis](https://github.com/gabebekele/transit-performance-analysis)
 
-**Results**
+**Python | Statistical Analysis | Random Forest | Flask**
 
-* **83.15% test accuracy**
-* **83.14% weighted F1**
-* Raw features outperformed PCA, Kernel PCA, and LLE
+Team capstone project in collaboration with MDOT MTA investigating bus schedule adherence and its relationship with traffic incidents. The project integrated a dataset of over 6.5 million transit observations with traffic incident data and included statistical analysis, predictive modeling, and a Flask application.
 
-The project explores an important modeling result: preserving variance through dimensionality reduction does not necessarily preserve the information most useful for classification.
+My contributions focused on Python-based route analysis, data visualization, and project documentation.
 
----
+### [Airbnb Price Prediction](https://github.com/gabebekele/airbnb-price-predictor)
 
-### Fraudulent Job Posting Detection
+**Python | AutoGluon | scikit-learn | Regression**
 
-**Python • scikit-learn • Classification**
+Developed regression models to predict NYC Airbnb listing prices and analyzed the relationship between pricing, location, room type, and advertised property features.
 
-Developed and evaluated a logistic regression model for identifying fraudulent job postings. The project focuses on the challenges of highly imbalanced classification and the importance of evaluating minority-class performance rather than relying on overall accuracy alone.
+- AutoGluon reduced mean absolute error by 19.7% compared with Linear Regression using the same input features.
+- Conducted feature importance analysis, exploratory data analysis, and model error analysis.
 
-**Focus**
+### [FIFA Player Position Classification](https://github.com/gabebekele/fifa-position-classification)
 
-* Classification model development
-* Precision, recall, and F1 analysis
-* Confusion-matrix evaluation
-* Class-imbalance analysis
-* Model limitations and error interpretation
+**Python | scikit-learn | KNN | Dimensionality Reduction**
 
----
+Developed a six-class classification pipeline using 18,944 FIFA player records and compared raw features with PCA, Kernel PCA, and LLE representations.
 
-### Transit Performance Analysis
+- Achieved approximately 83% test accuracy.
+- Found that dimensionality reduction provided minimal improvement in classification performance despite additional computational costs.
 
-**Python • pandas • Matplotlib • Data Analysis**
+### [AutoGluon Tutorial](https://github.com/gabebekele/autogluon-tutorial)
 
-Cleaned, analyzed, and visualized Maryland transit data to evaluate bus on-time performance and route reliability.
+**Python | AutoML | Docker | Technical Documentation**
 
-The analysis explores service-performance trends and identifies routes and patterns associated with potential operational and scheduling improvements.
+Developed a hands-on machine learning tutorial covering AutoGluon's tabular regression API, model evaluation, feature importance, model persistence, and experimental comparisons with Linear Regression.
 
-## Current Focus
+## Areas of Interest
 
-I'm currently expanding my work in:
-
-* Applied AI and LLM systems
-* Machine learning engineering
-* Model evaluation and reliability
-* Production-oriented ML workflows
-* Data science and statistical modeling
-
-## Background
-
-Alongside my graduate work, I have professional experience in healthcare data analysis, cybersecurity technology, and engineering. My previous work has included claims-data analysis, reporting and data validation, Python/C++ development, sensor-data processing, and technical troubleshooting.
+- Applied Machine Learning and AI
+- Data Analytics and Business Intelligence
+- Predictive Modeling and Statistical Analysis
+- Machine Learning Engineering
 
 ## Let's Connect
 
-I'm interested in opportunities across **Machine Learning Engineering, Applied AI, Data Science, and technical Data Analytics**.
+I'm interested in opportunities in Data Analytics, Data Science, Machine Learning Engineering, and Applied AI.
+
+[Here is my LinkedIn](https://www.linkedin.com/in/gabriel-bekele/)
